@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-p, div {
+div {
   padding: 0;
   margin: 0;
 }
@@ -12,22 +12,23 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 18%;
+  margin-top: 25px;
   margin-bottom: 0;
-  width: 70%;
-  height: auto;
-  position: relative;
+  padding: 0;
+  max-width: 1200px;
+  width: 100%;
 }
 
-a {
-  display: block;
-  font-size: 1.85em;
-  text-color: red;
-  text-decoration: none;
-  color: #393939;
-  font-family: 'Ubuntu Mono', monospace;
+div#social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-a:hover {
-  color: #676767;
+#social img {
+  /* height: 55px; */
+  width: 45px;
+  padding: 55px 15px 0px 15px;
+  margin: 0px;
 }
